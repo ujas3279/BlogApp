@@ -1,6 +1,7 @@
 class Posts
 {
-  String image, description, date, time;
+  String  description, date, time;
+  File image;
 
   Posts(this.image,this.description,this.date,this.time);
 } 
